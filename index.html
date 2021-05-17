@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched" class="stretched adaptive-color-scheme">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -85,7 +85,7 @@
 				<div class="vertical-middle slider-element-fade">
 					<div class="container text-center py-5">
 						<div class="emphasis-title mb-2">
-							<h4 class="text-uppercase ls4 font-weight-bolder mb-0">I am a</h4>
+							<h3 class="text-uppercase ls4 font-weight-bolder mb-0">I am a</h3>
 							<h1>
 								<span id="oc-images" class="owl-carousel image-carousel carousel-widget" data-items="1" data-margin="0" data-autoplay="3000" data-loop="true" data-nav="false" data-pagi="false" data-animate-in="fadeInUp">
 									<div class="oc-item gradient-text gradient-red-yellow text-uppercase">Web Developer</div>
@@ -124,11 +124,12 @@
 					</div>
 					<div class="d-flex justify-content-center position-relative">
 						<div class="parallax min-vh-100" style="background-image: url('images/me.jpg'); background-size: cover; background-position: center center;" data-bottom-top="width: 40vw" data-center-top="width: 100vw;">
-							<div class="row align-items-center justify-content-center h-100">
+							<!-- <div class="row align-items-center justify-content-center h-100">
 								<div class="col-auto text-center">
-									<!--<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#javascript</u></a>-->
+									<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#dribble</u></a>
+									<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#behance</u></a>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="shape-divider" data-shape="wave" data-position="bottom"></div>
 					</div>
@@ -152,8 +153,8 @@
 
 						<div class="col-md-4">
 							<div class="d-flex align-items-center justify-content-center">
-								<div class="counter counter-xlarge text-dark font-weight-bolder"><span data-from="5" data-to="100" data-refresh-interval="30" data-speed="1200"></span></div>
-								<span>% Satisfied<br>Customers.</span>
+								<div class="counter counter-xlarge text-dark font-weight-bolder"><span data-from="0" data-to="1800" data-refresh-interval="30" data-speed="1200"></span></div>
+								<span>+ cups of coffee <br>Consumed.</span>
 							</div>
 						</div>
 					</div>
@@ -164,61 +165,62 @@
 					<div class="container">
 						<div class="row align-items-center justify-content-around">
 							<div class="col-lg-4">
-								<h3 class="font-weight-bolder h1 mb-4">Technologies I ❤️ to create with</h3>
+								<h3 class="font-weight-bolder h1 mb-4">Technologies I ❤️ to <span class="gradient-text gradient-horizon">create </span>with</h3>
 
-								<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget mt-5" data-margin="0" data-items="1" data-pagi="true" data-nav="false">
+								<div class="accordion" data-collapsible="true">
 
-									<div class="oc-item">
-										<div class="testimonial border-0 shadow-none bg-transparent">
-											<div class="testi-content">
-												<p>Quickly redefine resource sucking web services after exceptional customer service. Professionally coordinate focused platforms before visionary architectures.</p>
-												<div class="testi-meta d-flex align-items-center">
-													<img src="images/testi/face.jpg" alt="Face" width="30">
-													<div>
-														John Doe
-														<span class="pl-0">XYZ Inc.</span>
-													</div>
-												</div>
-											</div>
+									<div class="accordion-header">
+										<div class="accordion-icon">
+											<i class="accordion-closed icon-line-plus color gradient-text gradient-red-yellow"></i>
+											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
+										</div>
+										<div class="accordion-title">
+											Web Design and Development
 										</div>
 									</div>
+									<div class="accordion-content">HTML/CSS/JavaScript</div>
 
-								<!--	<div class="oc-item">
-										<div class="testimonial border-0 shadow-none bg-transparent">
-											<div class="testi-content">
-												<p>Dramatically mesh user friendly solutions whereas sticky human capital. Assertively fashion impactful "outside the box".</p>
-												<div class="testi-meta d-flex align-items-center">
-													<img src="images/testi/face2.jpg" alt="Face" width="30">
-													<div>
-														John Doe
-														<span class="pl-0">XYZ Inc.</span>
-													</div>
-												</div>
-											</div>
+									<div class="accordion-header">
+										<div class="accordion-icon">
+											<i class="accordion-closed icon-line-plus color gradient-text gradient-red-yellow"></i>
+											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
-									</div>-->
+										<div class="accordion-title">
+											Frontend Javascript Frameworks
+										</div>
+									</div>
+									<div class="accordion-content">AngularJS/Angular 7/React/Vue.js</div>
 
-									<!--<div class="oc-item">
-										<div class="testimonial border-0 shadow-none bg-transparent">
-											<div class="testi-content">
-												<p>Progressively productivate customer directed meta-services without magnetic bandwidth.</p>
-												<div class="testi-meta d-flex align-items-center">
-													<img src="images/testi/face3.jpg" alt="Face" width="30">
-													<div>
-														John Doe
-														<span class="pl-0">XYZ Inc.</span>
-													</div>
-												</div>
-											</div>
+									<div class="accordion-header" id="id-accordion-3">
+										<div class="accordion-icon">
+											<i class="accordion-closed icon-line-plus color gradient-text gradient-red-yellow"></i>
+											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
-									</div>-->
+										<div class="accordion-title">
+											Backend Javascript Frameworks
+										</div>
+									</div>
+									<div class="accordion-content">Node.js/Express.js/Mongoose</div>
+
+									<div class="accordion-header" id="id-accordion-4">
+										<div class="accordion-icon">
+											<i class="accordion-closed icon-line-plus color gradient-text gradient-red-yellow"></i>
+											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
+										</div>
+										<div class="accordion-title">
+											Cross Platform App Development
+										</div>
+									</div>
+									<div class="accordion-content">Dart/Flutter/React Native/Firebase</div>
 
 								</div>
 							</div>
 
-							<div class="col-lg-6">
-								<img src="images/tech-logos.png" alt="">
+							<div>
+								<img src="images/tech-logos.png" alt="Technologies" class="px-5">
 							</div>
+
+
 						</div>
 					</div>
 				</div>
@@ -228,14 +230,13 @@
 				<div class="section m-0">
 					<div class="container">
 						<div class="row align-items-end justify-content-between mb-5">
-							<div class="col-lg-5 offset-lg-1">
+							<div class="col-lg-5">
 								<div id="projects">
-									<h3 class="font-weight-bolder h1 mb-4">Some of my <span class="gradient-text gradient-horizon">Creative</span> &amp;<br/> <span class="gradient-text gradient-horizon">Client </span>Projects</h3>
-									<p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<h3 class="font-weight-bolder h1 mb-4">Some of my <span class="gradient-text gradient-horizon">Creative</span> &amp; <span class="gradient-text gradient-horizon">Client </span>Projects</h3>
 								</div>
 							</div>
 							<div class="col-auto">
-								<a href="index-projects.html" class="button button-dark button-border rounded-pill">View All projects <i class="icon-line-arrow-right"></i></a>
+								
 							</div>
 						</div>
 
@@ -243,10 +244,11 @@
 							<div class="col-lg-6 h-translatey-3 tf-ts">
 								<a href="https://inclusion.in" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="images/projects/1.jpg" alt="Portfoio Item">
+										<img src="images/projects/1.jpg" alt="Portfolio Item">
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-												<h3 class="mb-0 mt-1">INCLUSION - Mainstreaming the Marginalised: Online News and Magazine Website</h3>
+												<h3 class="mb-0 mt-1">INCLUSION</h3>
+												<h5>Online News & Magazine for SKOCH Media</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
 												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-link"></i></div>
@@ -257,13 +259,13 @@
 							</div>
 
 							<div class="col-lg-6 h-translatey-3 tf-ts">
-								<a href="demo-yoga.html" class="portfolio-item" target="_blank">
+								<a href="https://skoch.in" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
-										<img src="images/projects/2.jpg" alt="Portfoio Item">
+										<img src="images/projects/2.jpg" alt="Portfolio Item">
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-												<h3 class="mb-0 mt-1">Niche Demo Yoga</h3>
-												<h5>Media, Icons</h5>
+												<h3 class="mb-0 mt-1">SKOCH Group</h3>
+												<h5>Business Website for SKOCH Group</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
 												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-link"></i></div>
@@ -280,6 +282,7 @@
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
 												<h3 class="mb-0 mt-1">Formula 1® Grand Prix Dashboard</h3>
+												<h5>Visual reconstruction of Races, Drivers and Seasons data</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
 												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-link"></i></div>
@@ -290,12 +293,13 @@
 							</div>
 
 							<div class="col-lg-6 h-translatey-3 tf-ts">
-								<a href="https://skoch.in" class="portfolio-item" target="_blank">
+								<a href="https://rtfact.tk" class="portfolio-item" target="_blank">
 									<div class="portfolio-image">
 										<img src="images/projects/4.jpg" alt="Portfoio Item">
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-												<h3 class="mb-0 mt-1">SKOCH Group: Home site for the group of companies</h3>
+												<h3 class="mb-0 mt-1">RTFact</h3>
+												<h5>Personal Blog for Gaming, Tech and Movies</h5>
 											</div>
 											<div class="bg-overlay-content align-items-start justify-content-end p-4">
 												<div class="overlay-trigger-icon bg-dark text-white" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-link"></i></div>
@@ -315,9 +319,8 @@
 
 					<div class="container">
 						<div class="row align-items-end mb-5">
-							<div class="col-lg-5 offset-lg-1">
-								<h3 class="font-weight-bolder h1">The ways I can help you</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
+							<div class="col-lg-5">
+								<h3 class="font-weight-bolder h1 mb-4">The ways I can <span class="gradient-text gradient-horizon">help you </span></h3>
 							</div>
 						</div>
 
@@ -328,11 +331,13 @@
 									<div class="mt-auto">
 										<div class="card-body">
 											<div class="d-flex align-items-center mb-4">
-												<img src="images/icons/sketch.svg" height="50" alt="Image">
-												<img src="images/icons/xd.png" height="50" alt="Image" class="ml-3">
+												<img src="images/icons/html-5.svg" height="45" alt="Image">
+												<img src="images/icons/css-3.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/php.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/wordpress-icon.svg" height="45" alt="Image" class="ml-3">
 											</div>
-											<h3 class="card-title font-weight-bolder">Website Design</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<h3 class="card-title font-weight-bolder">Website Design and Deployment</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light">Static, Dynamic, complete Feature-rich or a CMS like WordPress, I can setup, deploy, maintain and scale websites as per requirement.</p>
 										</div>
 									</div>
 								</div>
@@ -343,35 +348,50 @@
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="images/icons/social.svg" alt="Image" class="mb-4" height="50">
-											<h3 class="card-title font-weight-bolder">Responsive Website</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/aws.svg" alt="Image" height="45">
+												<img src="images/icons/google-cloud.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/azure-icon.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/heroku-icon.svg" alt="Image" class="ml-3" height="45">
+											</div>
+											<h3 class="card-title font-weight-bolder">Cloud Architecture and Management</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light">Maintaining the best cost-to-performance ratio, I can manage cloud services like compute, storage, databases, CDNs, VPCs, Kubernetes and much more.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #FADCE4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #FADCE4;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="images/icons/wp.png" height="50" alt="Image" class="mb-4">
-											<h3 class="card-title font-weight-bolder">WordPress Website</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/react.svg" alt="Image" height="45">
+												<img src="images/icons/angular-icon.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/vue.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/docker-icon.svg" alt="Image" class="ml-3" height="45">
+											</div>
+											<h3 class="card-title font-weight-bolder">Progressive Web Apps and Microservices</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E4E4E4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E4E4E4;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="images/icons/seo.svg" height="50" alt="Image" class="mb-4">
-											<h3 class="card-title font-weight-bolder">SEO Optimised</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/github-octocat.svg" height="50" alt="Image">
+												<img src="images/icons/gitlab.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/jira.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/zube.svg" height="45" alt="Image" class="ml-3">
+											</div>
+											<h3 class="card-title font-weight-bolder">Source Control and Issue Tracking</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
 										</div>
 									</div>
 								</div>
@@ -382,52 +402,92 @@
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="images/icons/hosting.svg" height="50" alt="Image" class="mb-4">
-											<h3 class="card-title font-weight-bolder">Web Hosting</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/strapi-icon.svg" height="45" alt="Image">
+												<img src="images/icons/postman.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/aws-api-gateway.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/apiary.svg" height="45" alt="Image" class="ml-3">
+											</div>
+											<h3 class="card-title font-weight-bolder">API and Plugin Development</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #C9D6CF">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #C9D6CF;">
 									<div class="mt-5"></div>
 									<div class="mt-auto">
 										<div class="card-body">
-											<img src="images/icons/plugins.png" height="50" alt="Image" class="mb-4">
-											<h3 class="card-title font-weight-bolder">Plugin Development</h3>
-											<p class="card-text mb-0 mt-2 font-weight-light">Objectively productivate interoperable process improvements after team building testing procedures. Distinctively architect resource-leveling portals.</p>
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/adobe-indesign.svg" alt="Image" height="45">
+												<img src="images/icons/adobe-photoshop.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/adobe-illustrator.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/adobe-xd.svg" alt="Image" class="ml-3" height="45">
+												<img src="images/icons/sketch.svg" alt="Image" class="ml-3" height="45">
+											</div>
+											<h3 class="card-title font-weight-bolder">Website Assets and Graphics</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
 
-				<div class="clear"></div>
+							<div class="col-md-4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #E2E8D8;">
+									<div class="mt-5"></div>
+									<div class="mt-auto">
+										<div class="card-body">
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/google-analytics.svg" height="45" alt="Image">
+												<img src="images/icons/google-tag-manager.svg" height="45" alt="Image" class="ml-3">
+												<img src="images/icons/splunk.svg" height="45" alt="Image" class="ml-3">
+											</div>
+											<h3 class="card-title font-weight-bolder">Analytics and Search Engine Optimization</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light">Bringing regular traffic of 250K+ users a month, I have established a very strategic approach to optimization and deliver a second-to-none User Experience.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 
-				<div class="container mt-6">
-						<div class="row align-items-end">
-							<div class="col-lg-6 offset-lg-1">
-							<h3 class="font-weight-bolder h1">We value our relationships</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima error ducimus recusandae sed ipsam, cumque optio reiciendis nihil labore!</p>
+							<div class="col-md-4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #C2DFEC;">
+									<div class="mt-5"></div>
+									<div class="mt-auto">
+										<div class="card-body">
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/zapier.svg" height="45" alt="Image">
+												<img src="images/icons/ifttt.svg" height="45" alt="Image" class="ml-3">
+											</div>
+											<h3 class="card-title font-weight-bolder">CRM and Service Integration</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="section rounded-10 p-6 my-4" style="background-color: #F1F1F1;">
-							<div class="row justify-content-between align-items-center col-mb-50">
-								<div class="col-md-3 col-6 center"><img src="images/clients/amazon.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/netflix.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/google.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/paypal.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/skype.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/ps.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/slack.svg" alt="Clients"></div>
-								<div class="col-md-3 col-6 center"><img src="images/clients/applemusic.svg" alt="Clients"></div>
+
+							<div class="col-md-4">
+								<div class="card d-flex align-items-end flex-column p-4 border-0" style="background-color: #FADCE4;">
+									<div class="mt-5"></div>
+									<div class="mt-auto">
+										<div class="card-body">
+											<div class="d-flex align-items-center mb-4">
+												<img src="images/icons/mendix.svg" height="45" alt="Image">
+												<img src="images/icons/appian.svg" height="45" alt="Image" class="ml-3">
+											</div>
+											<h3 class="card-title font-weight-bolder">Business Process Automation</h3>
+											<p class="card-text mb-0 mt-2 font-weight-light"></p>
+										</div>
+									</div>
+								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
+
+			<div class="clear"></div>
 
 				<div class="section m-0" style="background: #f1efe5 url('images/bg.svg') no-repeat right center; padding-top: 240px">
 					<div class="shape-divider" data-shape="wave-4" data-height="150" id="shape-divider-6017"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" preserveAspectRatio="none"><path class="shape-divider-fill" fill="#F8F7F2" d="M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z" opacity="0.3"></path><path class="shape-divider-fill" d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z" opacity="0.5"></path><path class="shape-divider-fill" d="M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z"></path></svg></div>
@@ -443,10 +503,10 @@
 											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
-											Design &amp; Development Process
+											What do you mean when you say 'Full Stack Web Developer'? 
 										</div>
 									</div>
-									<div class="accordion-content">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
+									<div class="accordion-content">To keep it simple, someone who takes care of all three layers behind your website/web — Client-side (what the user sees and interacts with), Server-side (what keeps the application functional) and Database (what stores and organizes all data).</div>
 
 									<div class="accordion-header">
 										<div class="accordion-icon">
@@ -454,10 +514,10 @@
 											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
-											What is Our Refund Policy
+											What exactly is a Custom Website or Application?
 										</div>
 									</div>
-									<div class="accordion-content">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</div>
+									<div class="accordion-content">It will allow you to design, build and deploy your desired website or application completely to your own preference, starting from the design all the way to your administration area to manage the website yourself.</div>
 
 									<div class="accordion-header" id="id-accordion-3">
 										<div class="accordion-icon">
@@ -465,10 +525,10 @@
 											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
-											Our Processing Time
+											Can you provide all the services listed?
 										</div>
 									</div>
-									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									<div class="accordion-content">While I am no robot 😊, I have gained knowledge and experience in all languages and technologies that I've listed above. With proper time and resources, I can achieve the end-goal with more than satisfactory results.</div>
 
 									<div class="accordion-header" id="id-accordion-4">
 										<div class="accordion-icon">
@@ -476,10 +536,10 @@
 											<i class="accordion-open icon-line-minus color gradient-text gradient-red-yellow"></i>
 										</div>
 										<div class="accordion-title">
-											Freelance or For Hire?
+											Are you available for Freelance or for Hire?
 										</div>
 									</div>
-									<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									<div class="accordion-content">Yes to both! Completing the task is not where my job ends. I want to commit to a long time relationship that you can count on. Whether you or your organization needs me for a one-off project or a permanent member of your team, I'm open to all opportunities.</div>
 
 								</div>
 							</div>
@@ -510,7 +570,7 @@
 							<div class="widget">
 
 								<h3 class="h1 mb-5">Got an idea you want to come to life?<br>Let's Talk!</h3>
-								<span class="text-black-50">Goal orientated-approach</span>
+								<!-- <span class="text-black-50"></span> -->
 								<a href="mailto:harshit.puri28@gmail.com" class="h4 text-dark mt-5 mb-4 d-block"><u>harshit.puri28@gmail.com</u> <i class="icon-line-arrow-right position-relative ml-2" style="top: 3px"></i></a>
 								<div>
 									<a href="https://github.com/HarshitPuri" class="social-icon si-small si-colored si-github" target="_blank">
@@ -524,10 +584,6 @@
 									<a href="https://twitter.com/HarshitPuri" class="social-icon si-small si-colored si-twitter" target="_blank">
 										<i class="icon-twitter"></i>
 										<i class="icon-twitter"></i>
-									</a>
-									<a href="https://steamcommunity.com/id/XZILED28" class="social-icon si-small si-colored si-steam" target="_blank">
-										<i class="icon-steam"></i>
-										<i class="icon-steam"></i>
 									</a>
 								</div>
 
